@@ -1,0 +1,180 @@
+.container-small {
+    max-width: 40em;
+}
+
+.container {
+    position: relative;
+    max-width: 66rem;
+}
+
+.container-large {
+    position: relative;
+    max-width: 82em;
+}
+
+.governance-panel {
+    background: #141e27;
+    box-shadow: 0px 2px 4px rgba(16, 21, 24, 0.05);
+    border-radius: 4px;
+    margin-bottom: 2rem;
+}
+
+.governance-panel__header {
+    display: flex;
+    flex-flow: inherit;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.1rem;
+    padding: 1rem 1.75rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.governance-panel__header h4 {
+    margin: 0;
+}
+
+.governance-panel__labels {
+    display: flex;
+    padding: 1rem 1.75rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    align-items: center;
+}
+
+.governance-panel__labels>div:first-child {
+    padding-left: 0;
+}
+
+.governance-panel__labels>div:last-child {
+    padding-right: 0;
+}
+
+.governance-panel__footer {
+    padding: 1.145rem 1.9375rem;
+    border-bottom: none;
+    border-radius: 0 0 4px 4px;
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    letter-spacing: 1px;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.governance-panel__footer:hover {
+    color: #ffc107;
+}
+
+.governance-panel__footer--disabled {
+    color: #ccd6dd;
+    user-select: none;
+}
+
+.governance-panel__footer--disabled:hover {
+    color: #ccd6dd;
+    cursor: initial;
+}
+
+.governance-panel__pager {
+    padding: 2rem 1.9375rem;
+    border-bottom: none;
+    border-radius: 0 0 4px 4px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #050f19;
+}
+
+@media (min-width: 60em) {
+    .governance-panel__pager {
+        padding: 1.145rem 1.9375rem;
+    }
+}
+
+.governance-panel__pager__previous {
+    position: absolute;
+    left: 1.75rem;
+}
+
+.governance-panel__pager__previous::before {
+    border-style: solid;
+    border-width: 2px 2px 0 0;
+    content: '';
+    display: inline-block;
+    height: 8px;
+    width: 8px;
+    transform: rotate(-135deg);
+    margin-right: 0.665rem;
+}
+
+.governance-panel__pager__previous label {
+    text-transform: uppercase;
+    color: #141e27;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.governance-panel__pager__previous:hover {
+    color: #ffc107;
+}
+
+.governance-panel__pager__previous:hover label {
+    color: #ffc107;
+}
+
+.governance-panel__pager__indicator {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.governance-panel__pager__indicator__text {
+    color: #b8c2cc;
+    padding: 0 0.5rem;
+}
+
+.governance-panel__pager__indicator__text--active {
+    color: #141e27;
+}
+
+.governance-panel__pager__next {
+    position: absolute;
+    right: 1.75rem;
+}
+
+.governance-panel__pager__next::after {
+    border-style: solid;
+    border-width: 2px 2px 0 0;
+    content: '';
+    display: inline-block;
+    height: 8px;
+    width: 8px;
+    transform: rotate(-135deg);
+    transform: rotate(45deg);
+    margin-left: 0.665rem;
+}
+
+.governance-panel__pager__next label {
+    text-transform: uppercase;
+    color: #141e27;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.governance-panel__pager__next:hover {
+    color: #ffc107;
+}
+
+.governance-panel__pager__next:hover label {
+    color: #ffc107;
+}
+
+.page-header__main-section__back::before {
+    content: "";
+    background-image: url(https://compound.finance/images/icn-arrow-back-white.svg);
+    background-size: 75%;
+    background-repeat: no-repeat;
+}

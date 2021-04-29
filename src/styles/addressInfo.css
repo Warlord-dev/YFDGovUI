@@ -1,0 +1,526 @@
+#Account-Profile {
+    padding-bottom: 10rem;
+}
+
+#Account-Profile section.hero {
+    padding: 2.66rem 0 7.315rem;
+    margin-bottom: -3.81rem;
+}
+
+#Account-Profile .account-details {
+    min-height: 40.625rem;
+}
+
+#Account-Profile .profile-header {
+    display: flex;
+    align-items: center;
+}
+
+#Account-Profile .profile-header__details {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0.625rem;
+    justify-content: center;
+}
+
+#Account-Profile .profile-header__details__display-name {
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    font-size: 1.75rem;
+}
+
+#Account-Profile .profile-header__details__display-name--loading {
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-name: placeHolderShimmer;
+    animation-timing-function: linear;
+    background: linear-gradient(to right, #f6f6f6 8%, #f0f0f0 18%, #f6f6f6 33%);
+    background-size: 800px 104px;
+    background: linear-gradient( to right, rgba(255, 255, 255, 0.1) 8%, rgba(255, 255, 255, 0.118) 18%, rgba(255, 255, 255, 0.1) 33%);
+    height: 1.75rem;
+    width: 12rem;
+}
+
+#Account-Profile .profile-header__details__display-name .line-icon {
+    margin-left: 0.625rem;
+}
+
+#Account-Profile .profile-header__details__address {
+    margin-top: 0.325rem;
+    color: #657786;
+    font-size: 0.875rem;
+    font-weight: 600;
+}
+
+#Account-Profile .profile-header__details__address--loading {
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-name: placeHolderShimmer;
+    animation-timing-function: linear;
+    background: linear-gradient(to right, #f6f6f6 8%, #f0f0f0 18%, #f6f6f6 33%);
+    background-size: 800px 104px;
+    background: linear-gradient( to right, rgba(255, 255, 255, 0.1) 8%, rgba(255, 255, 255, 0.118) 18%, rgba(255, 255, 255, 0.1) 33%);
+    height: 1.1875rem;
+    width: 22.875rem;
+}
+
+#Account-Profile .profile-header__details__address .line-icon {
+    margin-left: 0.625rem;
+}
+
+#Account-Profile .rank-pane {
+    background: rgba(255, 255, 255, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.25rem;
+    box-shadow: 0px 2.33558px 7.00674px rgba(0, 0, 0, 0.06);
+    border-radius: 4.67116px;
+}
+
+#Account-Profile .rank-pane__text {
+    text-transform: uppercase;
+}
+
+#Account-Profile .rank-pane__number {
+    margin-top: 0.9375rem;
+    margin-bottom: 0;
+    font-size: 1.375rem;
+    color: #ffffff;
+}
+
+@media (min-width: 60em) {
+    #Account-Profile .holdings-panel {
+        padding-right: 0.625rem;
+    }
+}
+
+#Account-Profile .holdings-panel__holdings__row {
+    display: flex;
+    flex-direction: column;
+    padding: 1.0rem 1.75rem;
+}
+
+#Account-Profile .holdings-panel__holdings__row:not(:last-child) {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+#Account-Profile .holdings-panel__holdings__row__votes-label {
+    align-items: flex-end;
+    align-content: flex-end;
+}
+
+#Account-Profile .holdings-panel__holdings__row__votes-label__icon {
+    margin-left: 0.75rem;
+    margin-right: 0.25rem;
+    height: 12px;
+    width: 12px;
+}
+
+#Account-Profile .holdings-panel__holdings__row__label--loading {
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-name: placeHolderShimmer;
+    animation-timing-function: linear;
+    background: linear-gradient(to right, #f6f6f6 8%, #f0f0f0 18%, #f6f6f6 33%);
+    background-size: 800px 104px;
+    height: 0.75rem;
+    width: 5.5rem;
+}
+
+#Account-Profile .holdings-panel__holdings__row__value {
+    margin-top: 0.85rem;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 124%;
+    color: #ffffff;
+}
+
+#Account-Profile .holdings-panel__holdings__row__value--loading {
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-name: placeHolderShimmer;
+    animation-timing-function: linear;
+    background: linear-gradient(to right, #f6f6f6 8%, #f0f0f0 18%, #f6f6f6 33%);
+    background-size: 800px 104px;
+    height: 1.5rem;
+    width: 4.5rem;
+}
+
+#Account-Profile .holdings-panel__holdings__row__vote-weight {
+    margin-top: 0.9rem;
+    margin-bottom: 1px;
+    width: 100%;
+    height: 4px;
+    background-color: #f1f3f5;
+    border-radius: 4px;
+}
+
+#Account-Profile .holdings-panel__holdings__row__vote-weight__fill {
+    height: 4px;
+    border-radius: 4px;
+    background-color: #ffc107;
+}
+
+#Account-Profile .holdings-panel__holdings__row__vote-weight--loading {
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-name: placeHolderShimmer;
+    animation-timing-function: linear;
+    background: linear-gradient(to right, #f6f6f6 8%, #f0f0f0 18%, #f6f6f6 33%);
+    background-size: 800px 104px;
+}
+
+#Account-Profile .holdings-panel__holdings__row:nth-of-type(2) .holdings-panel__holdings__row__label--loading {
+    width: 2.0655rem;
+}
+
+#Account-Profile .holdings-panel__holdings__row:nth-of-type(2) .holdings-panel__holdings__row__value--loading {
+    width: 6.6875rem;
+}
+
+#Account-Profile .holdings-panel__holdings__row:nth-of-type(3) .holdings-panel__holdings__row__label--loading {
+    width: 4.9375rem;
+}
+
+#Account-Profile .holdings-panel__holdings__row:nth-of-type(3) .holdings-panel__holdings__row__value--loading {
+    width: 7.3125rem;
+}
+
+@media (min-width: 60em) {
+    #Account-Profile .transactions-panel {
+        padding-left: 0.625rem;
+    }
+}
+
+#Account-Profile .transactions-panel__transaction-row {
+    display: flex;
+    align-items: center;
+    border-left: 2px solid transparent;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    padding: 1.27rem 1.75rem;
+    padding-left: 1.625rem;
+    text-transform: none;
+}
+
+#Account-Profile .transactions-panel__transaction-row>div:first-child {
+    padding-left: 0;
+}
+
+#Account-Profile .transactions-panel__transaction-row>div:last-child {
+    padding-right: 0;
+}
+
+#Account-Profile .transactions-panel__transaction-row--empty {
+    justify-content: center;
+}
+
+#Account-Profile .transactions-panel__transaction-row:hover {
+    border-left: 2px solid #ffc107;
+    color: #141e27;
+}
+
+#Account-Profile .transactions-panel__transaction-row:hover.transactions-panel__transaction-row--empty, #Account-Profile .transactions-panel__transaction-row:hover.transactions-panel__transaction-row--loading {
+    border-left: 2px solid transparent;
+}
+
+#Account-Profile .transactions-panel__transaction-row p {
+    font-size: 0.875rem;
+    line-height: 1;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+#Account-Profile .transactions-panel__transaction-row__action--loading {
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-name: placeHolderShimmer;
+    animation-timing-function: linear;
+    background: linear-gradient(to right, #f6f6f6 8%, #f0f0f0 18%, #f6f6f6 33%);
+    background-size: 800px 104px;
+    height: 0.875rem;
+    width: 6rem;
+}
+
+#Account-Profile .transactions-panel__transaction-row__action--empty {
+    font-size: 0.875rem;
+    line-height: 0.875rem;
+    color: #ccd6dd;
+}
+
+@media (min-width: 60em) {
+    #Account-Profile .transactions-panel__transaction-row__time {
+        padding-left: 1.75rem;
+    }
+}
+
+#Account-Profile .transactions-panel__transaction-row__time--loading {
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-name: placeHolderShimmer;
+    animation-timing-function: linear;
+    background: linear-gradient(to right, #f6f6f6 8%, #f0f0f0 18%, #f6f6f6 33%);
+    background-size: 800px 104px;
+    height: 0.875rem;
+    width: 8.5rem;
+}
+
+@media (min-width: 60em) {
+    #Account-Profile .transactions-panel__transaction-row__time--loading {
+        margin-left: 1.75rem;
+    }
+}
+
+#Account-Profile .transactions-panel__transaction-row__time--empty {
+    color: #ccd6dd;
+    font-size: 0.875rem;
+    line-height: 0.875rem;
+}
+
+#Account-Profile .transactions-panel__transaction-row__delta {
+    position: relative;
+    display: inline-block;
+}
+
+#Account-Profile .transactions-panel__transaction-row__delta--increase::before {
+    content: ' ';
+    position: absolute;
+    left: -20px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 7px solid #ffc107;
+}
+
+#Account-Profile .transactions-panel__transaction-row__delta--decrease::before {
+    content: ' ';
+    position: absolute;
+    left: -20px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 7px solid #df5f67;
+}
+
+#Account-Profile .transactions-panel__transaction-row__delta--empty {
+    color: #ccd6dd;
+    display: flex;
+    font-size: 0.875rem;
+    line-height: 0.875rem;
+}
+
+#Account-Profile .transactions-panel__transaction-row__delta--loading {
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-name: placeHolderShimmer;
+    animation-timing-function: linear;
+    background: linear-gradient(to right, #f6f6f6 8%, #f0f0f0 18%, #f6f6f6 33%);
+    background-size: 800px 104px;
+    display: flex;
+    margin-left: auto;
+    height: 0.875rem;
+    width: 4rem;
+}
+
+#Account-Profile .transactions-panel__transaction-row:nth-of-type(2) .transactions-panel__transaction-row__action--loading, #Account-Profile .transactions-panel__transaction-row:nth-of-type(4) .transactions-panel__transaction-row__action--loading {
+    width: 7.0655rem;
+}
+
+#Account-Profile .transactions-panel__transaction-row:nth-of-type(2) .transactions-panel__transaction-row__time--loading, #Account-Profile .transactions-panel__transaction-row:nth-of-type(4) .transactions-panel__transaction-row__time--loading {
+    width: 7.5rem;
+}
+
+#Account-Profile .transactions-panel__transaction-row:nth-of-type(2) .transactions-panel__transaction-row__delta--loading, #Account-Profile .transactions-panel__transaction-row:nth-of-type(4) .transactions-panel__transaction-row__delta--loading {
+    width: 4.6875rem;
+}
+
+@media (min-width: 60em) {
+    #Account-Profile .markets-panel {
+        padding-left: 0.625rem;
+    }
+}
+
+#Account-Profile .markets-panel .comp-column {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#Account-Profile .markets-panel .comp-column img {
+    margin-right: 0.625rem;
+}
+
+#Account-Profile .markets-panel__market-row {
+    display: flex;
+    align-items: center;
+    border-left: 2px solid transparent;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    padding: 1.27rem 1.75rem;
+    padding-left: 1.625rem;
+    text-transform: none;
+}
+
+#Account-Profile .markets-panel__market-row>div:first-child {
+    padding-left: 0;
+}
+
+#Account-Profile .markets-panel__market-row>div:last-child {
+    padding-right: 0;
+}
+
+#Account-Profile .markets-panel__market-row--empty {
+    justify-content: center;
+}
+
+#Account-Profile .markets-panel__market-row p {
+    font-size: 1rem;
+    line-height: 1;
+    font-weight: 500;
+}
+
+#Account-Profile .markets-panel__market-row__market {
+    display: flex;
+    align-items: center;
+}
+
+#Account-Profile .markets-panel__market-row__market__icon {
+    border: 0;
+    width: 2.375rem;
+    height: 2.375rem;
+    min-width: 2.375rem;
+    min-height: 2.375rem;
+    border-radius: 50%;
+}
+
+#Account-Profile .markets-panel__market-row__market__icon--loading {
+    background-image: none;
+    border-radius: 50%;
+}
+
+#Account-Profile .markets-panel__market-row__market__text {
+    margin-left: 1.125rem;
+}
+
+#Account-Profile .markets-panel__market-row__market__text--loading {
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-name: placeHolderShimmer;
+    animation-timing-function: linear;
+    background: linear-gradient(to right, #f6f6f6 8%, #f0f0f0 18%, #f6f6f6 33%);
+    background-size: 800px 104px;
+    height: 0.875rem;
+    width: 6rem;
+}
+
+#Account-Profile .markets-panel__market-row__text--light {
+    color: #ccd6dd;
+}
+
+.container {
+    position: relative;
+    max-width: 66rem;
+}
+
+section.hero {
+    padding: 2.66rem 0 7.315rem;
+    margin-bottom: -3.81rem;
+}
+
+section.hero {
+    background: #070a0e;
+    margin-bottom: -3.75rem;
+    padding: 1.2635rem 0 7.315rem;
+}
+
+section.hero h1 {
+    margin: 0;
+    padding-top: 3.99rem;
+    color: #ffffff;
+}
+
+.page-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    color: #ffffff;
+    flex-wrap: wrap;
+}
+
+.page-header__main-section {
+    align-self: flex-start;
+    width: 65%;
+}
+
+.page-header__main-section__back {
+    display: flex;
+    align-items: center;
+    opacity: 0.7;
+}
+
+.page-header__main-section__back::before {
+    content: '';
+    background-size: 75%;
+    background-repeat: no-repeat;
+    padding: 0.5rem 1rem 0.4rem 1rem;
+}
+
+.page-header__main-section__back__text {
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.page-header__main-section__back:hover {
+    opacity: 1;
+}
+
+.page-header__main-section__title {
+    margin-top: 1.875rem;
+    font-family: 'Roboto-Regular', sans-serif;
+    font-size: 1.75rem;
+    font-weight: 500;
+}
+
+.page-header__main-section__back::before {
+    content: "";
+    background-image: url(https://compound.finance/images/icn-arrow-back-white.svg);
+    background-size: 75%;
+    background-repeat: no-repeat;
+}
+
+.delegate-token {
+    background-color: transparent;
+    color: #ffc107;
+    border: 1px solid #ffc107;
+    border-radius: 5px;
+    font-size: small;
+    cursor: pointer !important;
+    width: 50%;
+}
+
+.delegate-token:hover {
+    box-shadow: 0 0.5em 0.5em -0.4em white;
+    transform: translateY(-0.25em);
+    color: white;
+}
+
+@media (min-width: 60em) {
+    .profile-header__details__address--mobile {
+        display: none;
+    }
+}
