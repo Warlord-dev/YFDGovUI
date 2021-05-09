@@ -21,17 +21,6 @@ const Footer = () => {
                             <h4 className="header">Quick Links</h4>
                             <ul className="stack-link">
                                 <li><a href="https://yfd.io">Home</a></li>
-                                {/* <li>
-                                    <a
-                                        href="https://finance.yahoo.com/news/zoracles-develops-next-generation-oracle-093003499.html?guccounter=1&amp;guce_referrer=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8&amp;guce_referrer_sig=AQAAABB1kCfe07jcqCQcmla2GXEHe_i1jXF1Siyf702Sd7MCKdHUjd3LTk5XdP8_PiI_raEAUOc03x9vgwYu7PJJ-L6Kc-g0FqDpBzfNoPUWSCLclAuow6M39K46V--gL3gGoJr5YIEoxRvYdUvMqoYqsPBcaovCYrVSGI5KSWMDbe8i">
-                                        Press
-                                    </a>
-                                </li> */}
-                                {/* <li>
-                                    <a href="#features">
-                                        Features
-                                    </a>
-                                </li> */}
                                 <li>
                                     <a href="https://github.com/YfDFI-Finance">
                                         Github

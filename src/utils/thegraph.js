@@ -1,5 +1,5 @@
 import axios from 'axios';
-const apiUrl = "https://api.thegraph.com/subgraphs/name/zoracles/governance";
+const apiUrl = "https://api.thegraph.com/subgraphs/name/warlord-dev/governance";
 const blockApi = "https://api.thegraph.com/subgraphs/name/blocklytics/ethereum-blocks";
 
 const fetchAggregatedData = () => {

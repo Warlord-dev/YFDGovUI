@@ -302,10 +302,10 @@
   },
   {
     "inputs": [],
-    "name": "zora",
+    "name": "votx",
     "outputs": [
       {
-        "internalType": "contract Zoracles",
+        "internalType": "contract VOTX2",
         "name": "",
         "type": "address"
       }
@@ -393,7 +393,7 @@
       },
       {
         "internalType": "address",
-        "name": "_zora",
+        "name": "_votx",
         "type": "address"
       },
       {
