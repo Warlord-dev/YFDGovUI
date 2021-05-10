@@ -1,6 +1,6 @@
-# DFI Governance
+# YFD Governance
 
-This is the frontend created for the governance of [DFI](https://yfd.io).
+This is the frontend created for the governance of [YFD](https://yfd.io).
 
 # Steps to run project locally
 

@@ -5,12 +5,12 @@ const Footer = () => {
     return (
         <footer id="footer" className="landing">
             <div className="container-large">
-                <div className="row" style={{ marginTop: "4%" }}>
+                {/* <div className="row" style={{ marginTop: "4%" }}>
                     <div className="col-md-3">
                         <div className="footer-widget">
-                            <h4 className="header">About VOTX</h4>
+                            <h4 className="header">About VOTXv2</h4>
                             <p className="info">
-                                VOTX partners with DeFi projects using Open Oracle with
+                                VOTXv2 partners with DeFi projects using Open Oracle with
                                 zero-knowledge proofs to provide confidential data to smart contracts.
                             </p>
                         </div>
@@ -79,13 +79,13 @@ const Footer = () => {
                             </form>
                         </div>
                     </div>
-                </div>
+                </div> */}
 
                 <div className="row copyright">
                     <div className="col-md-6">
                         <div className="footer-widget">
                             <p className="copyright info">
-                                © 2020 <a href="https://yfd.io/">
+                                © 2021 <a href="https://yfd.io/">
                                     YfDFI Finance
                                 </a>
                             </p>

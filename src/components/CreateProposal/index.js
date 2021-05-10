@@ -73,7 +73,7 @@ const CreateProposal = () => {
                         ),
                     ]
                 )],
-                `Release ${details.releaseAmount} VOTX From Timelock`,
+                `Release ${details.releaseAmount} VOTXv2 From Timelock`,
             )
             .send({ from: window.userAddress })
             .on("transactionHash", () => {
@@ -174,7 +174,7 @@ const CreateProposal = () => {
                                 <div className="holdings-panel__holdings">
                                     <div className="holdings-panel__holdings__row">
                                         <label className="holdings-panel__holdings__row__label">
-                                            VOTX Locked
+                                            VOTXv2 Locked
                                         </label>
                                         <p className="holdings-panel__holdings__row__value">
                                             {state.timelockBalance ?
@@ -204,7 +204,7 @@ const CreateProposal = () => {
                                     <div className="governance-panel__header votes-panel__header">
                                         <div className="votes-panel__header__title-bar">
                                             <h4 style={{ color: "#ffc107" }}>
-                                                Create Proposal To Release VOTX
+                                                Create Proposal To Release VOTXv2
                                             </h4>
                                         </div>
                                         <div className="votes-panel__header__vote-bar">
@@ -224,7 +224,7 @@ const CreateProposal = () => {
                                                 <Col sm={8}>
                                                     <input
                                                         className="vote-button mb-3"
-                                                        placeholder="Address who will receive VOTX"
+                                                        placeholder="Address who will receive VOTXv2"
                                                         type="text"
                                                         onChange={(e) => setDetails({
                                                             ...details,
@@ -242,7 +242,7 @@ const CreateProposal = () => {
                                                 <Col sm={8}>
                                                     <input
                                                         className="vote-button mb-3"
-                                                        placeholder="Number of VOTX to Release"
+                                                        placeholder="Number of VOTXv2 to Release"
                                                         type="number"
                                                         step="0"
                                                         min="0"

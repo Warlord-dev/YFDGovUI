@@ -9,7 +9,7 @@ import redirectIcon from "../../assets/images/redirect-icon.png";
 const Vesting = () => {
     const [state, setState] = useState({
         balance: 0,
-        dfiInLockup: 0,
+        votxInLockup: 0,
         cliffPeriod: "",
         vestingPeriod: "",
         amountAvailable: "",
@@ -113,7 +113,7 @@ const Vesting = () => {
         ) {
             message = "Lockup Token amount must be less than available balance !!";
         } else if (Number(info.vestedTokens) > 0) {
-            message = "Beneficiary already have locked VOTX in vesting contract !!";
+            message = "Beneficiary already have locked VOTXv2 in vesting contract !!";
         }
 
         if (message) {
@@ -276,7 +276,7 @@ const Vesting = () => {
                                 <div className="holdings-panel__holdings">
                                     <div className="holdings-panel__holdings__row">
                                         <label className="holdings-panel__holdings__row__label">
-                                            VOTX In Lockup
+                                            VOTXv2 In Lockup
                                         </label>
                                         <p className="holdings-panel__holdings__row__value">
                                             <span>{precision.remove(Number(state.votxInLockup))} </span>
@@ -379,9 +379,9 @@ const Vesting = () => {
                                                         <span>
                                                             {precision.remove(state.totalTokenVested)}
                                                         </span>
-                                                        <span> VOTX</span>
+                                                        <span> VOTXv2</span>
                                                     </span>
-                                                    : <span>0.00 VOTX</span>
+                                                    : <span>0.00 VOTXv2</span>
                                                 }
                                             </h5>
                                         </div>
@@ -420,7 +420,7 @@ const Vesting = () => {
                                                 <Col sm={8}>
                                                     <input
                                                         className="vote-button mb-3"
-                                                        placeholder="Number of VOTX to Lock"
+                                                        placeholder="Number of VOTXv2 to Lock"
                                                         type="number"
                                                         step="0"
                                                         min="0"
@@ -484,7 +484,7 @@ const Vesting = () => {
                                                         placeholder="Amount that can be withdrawn every day"
                                                         value={
                                                             Number(details.vestingPeriod) ?
-                                                                (Number(details.amount) / Number(details.vestingPeriod)) + " VOTX"
+                                                                (Number(details.amount) / Number(details.vestingPeriod)) + " VOTXv2"
                                                                 : ""
                                                         }
                                                     />
@@ -515,7 +515,7 @@ const Vesting = () => {
 
                                             {Number(state.votxInLockup) > 0 ?
                                                 <div className="warning-info">
-                                                    You already have locked VOTX in Vesting contract.
+                                                    You already have locked VOTXv2 in Vesting contract.
                                                 </div>
                                                 : null
                                             }

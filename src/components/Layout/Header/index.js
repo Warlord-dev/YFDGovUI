@@ -76,7 +76,7 @@ const Header = () => {
                         <Link to="/">
                         <img
                             className="gov-profile-image__logo-image"
-                            alt="DFI Logo"
+                            alt="YFD Logo"
                             src={logo}
                         />
                         </Link>
@@ -104,7 +104,7 @@ const Header = () => {
                                             <div> – </div>
                                         }
 
-                                        &nbsp;VOTX
+                                        &nbsp;VOTXv2
                                         
                                     </div>
                                 </div>

@@ -1,6 +1,6 @@
 import { Decimal } from "decimal.js";
 
-const defaultDecimal = 9;
+const defaultDecimal = 18;
 
 const add = (value, decimals) => {
     return String(new Decimal(value)

@@ -313,7 +313,7 @@ const ProposalBody = ({ proposal, callback }) => {
 
                                             {userVotePower && userVotePower <= 0 ?
                                                 <div className="warning-info">
-                                                    You can't cast vote because either You don't have VOTX
+                                                    You can't cast vote because either You don't have VOTXv2
                                                     or you have not delegated your votes
                                                 </div>
                                                 : null

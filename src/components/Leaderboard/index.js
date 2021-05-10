@@ -76,7 +76,7 @@ const Leaderboard = () => {
                         <div style={{marginBottom: "20%"}} id="top-addresses-pane">
                             <div className="governance-panel">
                                 <div className="governance-panel__header">
-                                    <h4>Top VOTX Voting Power</h4>
+                                    <h4>Top VOTXv2 Voting Power</h4>
                                 </div>
                                 <div className="governance-panel__labels">
                                     <div className="col-xs-10 col-sm-6">

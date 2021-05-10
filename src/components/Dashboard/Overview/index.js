@@ -43,8 +43,8 @@ const Overview = () => {
                             href={`${config.etherscanLink}/token/${config.votxAddress}#balances`}
                         >
                             <div>
-                                <div className="headline">100,000 VOTX</div>
-                                <label>VOTX Total Supply</label>
+                                <div className="headline">100,000 VOTXv2</div>
+                                <label>VOTXv2 Total Supply</label>
                             </div>
 
                             <div className="votx-remaining-view">

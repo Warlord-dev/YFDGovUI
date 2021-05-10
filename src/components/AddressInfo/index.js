@@ -99,7 +99,7 @@ const AddressInfo = () => {
                 setSuccessModal({
                     open: true,
                     msg: "Congratulations 🎉 !! " +
-                        "You have successfully delegated your VOTX !!",
+                        "You have successfully delegated your VOTXv2 !!",
                 });
             })
             .catch((error) => {
@@ -205,7 +205,7 @@ const AddressInfo = () => {
                                 <div className="holdings-panel__holdings">
                                     <div className="holdings-panel__holdings__row">
                                         <label className="holdings-panel__holdings__row__label">
-                                            VOTX Balance
+                                            VOTXv2 Balance
                                         </label>
                                         <p className="holdings-panel__holdings__row__value">
                                             {Number(votxBalance).toFixed(4)}
